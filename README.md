@@ -31,7 +31,7 @@ The used data for the project was downloaded from the [Kaggle](https://www.kaggl
 
 **Remarks:**
  
- * Due to the fact that interactive plots are present, it is possible to read the Notebook correctly using this [link](http://nbviewer.jupyter.org/github/Ilaria27/Adm-Homework-3-group-26/blob/master/Homework_3.ipynb).
+ * Due to the fact that interactive plots are present, it is possible to read the Notebook correctly using this [link] (http://nbviewer.jupyter.org/github/Ilaria27/Adm-Homework-3-group-26/blob/master/Homework_3.ipynb).
  
  * Whether you are interested in running all the cells do that, otherwise, if you want just run the analysis, in the folder `files` you find all the data used in the further analysis that will make everthing faster. For the tidiness of the notebook the functions used in the script are strored in the `.py` scripts.
 
