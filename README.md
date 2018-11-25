@@ -1,17 +1,17 @@
 # Adm-Homework-3-group-26
 
-#Find the perfect place to stay in Texas
+# Find the perfect place to stay in Texas
 
 The proposed scripts allow to use different search engines that given as input a query, return the apartments that match the query. In order to do so, first the data is preprocessed.
 The first search engine return all the entries with the words in the query. The second search engine implemented apart from providing the entries with the words in the query, ranks the results regarding the cosine similarity using the tfIDf of the documents and query.  Afterwards, it is implemented another search engine with a new score that allows to take into consideration more features of the data. Finally, it is proposed a visualization with Folium where it is shown in the map, given a certain coordinates and radius, all the houses that are contained in a circle of that radius whose center is the coordinates provided. Besides, in the map it is also shown the price of each accomodation inside the radius.
 
-##Data to analyse
+## Data to analyse
 
 The used data for the project was downloaded from the [Kaggle](https://www.kaggle.com/PromptCloudHQ/airbnb-property-data-from-texas) website. This data about Airbnb was extracted by PromptCloud's Data-as-a-Service solution for the Texas state of the USA. The dataset have information about the average rate per night, the number of bedrooms, the city, the date of listing, description of the place, latitude and longitude coordinates, title and url of about 18250 accomodation in Texas.
 
 
 
-##Script descriptions
+## Script descriptions
 
 * `preprocessing.py`: Defines functions that allow to preprocess the downloaded text.
 
@@ -36,7 +36,7 @@ The used data for the project was downloaded from the [Kaggle](https://www.kaggl
  
  * Whether you are interested in running all the cells do that, otherwise, if you want just run the analysis, in the folder `files` you find all the data used in the further analysis that will make everthing faster. For the tidiness of the notebook the functions used in the script are strored in the `.py` scripts.
 
-##References
+## References
 
 * J. Leskovec, A. Rajaraman, and J. Ullman, "Mining of Massive Datasets," Cambridge University Press 
 
