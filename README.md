@@ -25,7 +25,7 @@ The used data for the project was downloaded from the [Kaggle](https://www.kaggl
 
 **Remark:** In some of the functions in the `.py` scripts, it is necessary to change the name of the folder from where the files are read or in which one it is written for the name of a folder in the user computer.
 
-##Jupyter Notebook
+## Jupyter Notebook
 
 * `hm3.ipynb`: It is a `IPython notebook` where it is displayed how the classes and methods provided were used. 
 
